@@ -3,3 +3,127 @@
     padding: 0;
     box-sizing: border-box;
 }
+.navbar {
+    /* margin-top: 5px; */
+    /* position: unset; */
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    /* height: 100em; */
+    /* justify-content: space-between; */
+}
+.navbar-left > * {
+    margin-left: 20px;
+
+}
+.navbar-left > a > img {
+    width: 40px;
+    
+}
+/* .navbar-left >img   {
+    position: absolute;
+    left: 70px;
+
+} */
+/* .navbar-left > input {
+    width: 18rem;
+    height: 2.3rem;
+    border: 1px;
+    border-radius: 5px;
+} */
+.searchBar {
+    border: 1px solid black;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    /* height: 100e; */
+    /* height:5rem; */
+    /* height: 100px;
+    width: 50px; */
+}
+.searchBar > input {
+    margin-left: 6px;
+    background-color: lightgray;
+    border-color: none;
+    border: none;
+    width: 70%;
+    height: 38px;
+}
+
+.searchBar > * {
+    margin-left: 20px;
+}
+input:focus {
+    outline: none;
+}
+.navbar-center > ul {
+    display: flex;
+}
+.navbar-center > ul > li { 
+    list-style: none;
+    margin-left: 15px;
+    
+
+}
+#profile-pic {
+    width: 20px;
+}
+.navbar-center >ul> li> a> img {
+    padding-top: 10px;
+    width: 30px;
+
+}
+
+.navbar-center > ul >li >a  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    text-decoration: none;
+}
+/* .navbar-center > ul >li >a >img {
+    display: flex;
+    width: ;
+
+} */
+.vertical {
+    /* position: relative  ; */
+    /* right: 80px; */
+    border: 1px solid lightgray;
+    height: 60px;
+
+}
+.navbar-right > ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right > ul >li {
+    list-style: none;
+    position: relative;
+    right: 40px;
+    margin-left: 40px;
+    /* margin-right: 24px; */
+    
+}
+.navbar-right > ul > li > a > img {
+    width: 30px;
+    }
+
+.navbar-right >ul >li >a  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    
+
+}
